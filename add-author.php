@@ -1,5 +1,5 @@
 <?php
-require_once "header.php";
+//require_once "header.php";
 
 ?>
 <style>
@@ -17,7 +17,7 @@ require_once "header.php";
         <div class="card-body">
             <form action="add-author.php" method="POST" enctype="multipart/form-data">
                 <div class="form-row">
-
+                
                     <div class="col-12">
                     <label for="name">Име *</label>
                     <input type="text" class="form-control" id="name" name="name" required>
